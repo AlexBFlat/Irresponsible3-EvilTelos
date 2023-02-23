@@ -1,9 +1,9 @@
-1.Astrus-Ind. Locations
-	Alex Tower
-	Astra Delta
-	Telos-Cedra
-	Telos-I
-	Telehub
+//1.Astrus-Ind. Locations
+//	Alex Tower
+//	Astra Delta
+//	Telos-Cedra
+//	Telos-I
+//	Telehub
 
 tellraw @p[distance=..10] 
 

@@ -18,8 +18,8 @@ tellraw @p[distance=..10]
   "text":" \n"
  },
   {
-   "text":"Telos Cedra\n",
-   "color":"dark_blue",
+   "text":"Irresponsihub\n",
+   "color":"dark_red",
    "italic":true,
    "bold":false,
    "clickEvent":

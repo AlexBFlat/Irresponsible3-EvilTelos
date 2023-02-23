@@ -1,0 +1,141 @@
+6.Small Towns A-K
+	Beetroot Point
+	Blossom
+	Druidica
+	Garden City
+	Georgetowne
+	Greater SouthEast
+	Highland Grove
+	Jacobstowne
+	
+tellraw @p[distance=..10]
+ [
+  {
+   "text":"AITC-STAK Version 0.02\n",
+   "color":"gray",
+   "bold":true,
+   "italic":false
+  },
+  {
+   "text":" \n"
+  },
+  {
+   "text":"Telos Cedra\n",
+   "color":"dark_blue",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] 0 0 0"
+    }
+  },
+  {
+   "text":" \n"
+  },
+  {
+   "text":"Small Towns A-K\n",
+   "color":"dark_gray",
+   "bold":"true",
+   "italic":false
+  },
+  {
+   "text":"Beetroot Point\n",
+   "color":"dark_purple",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] -945 64 3583"
+    }
+  },
+  {
+   "text":"Blossom\n",
+   "color":"dark_purple",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] -758.35 69.00 1837.53 -270.00 3.30"
+    }
+  },
+  {
+   "text":"CharlesTown\n",
+   "color":"dark_gray",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] 269.43 64.00 -17.82 178.65 5.40"
+    }
+  },
+  {
+   "text":"Druidica\n",
+   "color":"gold",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] 22.85 64.00 4469.29 630.45 -2.70"
+    }
+  },
+  {
+   "text":"Garden City\n",
+   "color":"dark_green",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] -177.70 64.00 1231.59 -274.95 11.85"
+    }
+  },
+  {
+   "text":"Georgetowne\n",
+   "color":"dark_gray",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] 2408.45 68 1408.54 181.5 5.85"
+    }
+  },
+  {
+   "text":"Greater Southeast\n",
+   "color":"gray",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] 1618.59 69.00 1200.17 -722.98 5.70"
+    }
+  },
+  {
+   "text":"Highland Grove\n",
+   "color":"green",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] -214.57 70.00 2696.56 87.15 -0.90"
+    }
+  },
+  {
+   "text":"Jacobstowne\n",
+   "color":"gold",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] 8.53 70.00 2586.30 719.55 0.45"
+    }
+  }
+ ]

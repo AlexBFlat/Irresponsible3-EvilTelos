@@ -1,0 +1,46 @@
+14.Party Zones
+	New Update's Eve Location
+	
+tellraw @p[distance=..10]
+ [
+  {
+   "text":"AITC-PZ Version 0.12\n",
+   "color":"gray",
+   "bold":true,
+   "italic":false
+  },
+  {
+   "text":" \n"
+  },
+  {
+   "text":"Telos Cedra\n",
+   "color":"dark_blue",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] 0 0 0"
+    }
+  },
+  {
+   "text":" \n"
+  },
+  {
+   "text":"Party Zones\n",
+   "color":"gold",
+   "bold":"true",
+   "italic":false
+  },
+{
+   "text":"New Update's Eve Location\n",
+   "color":"orange",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] -1615.35 109.00 -12479.99 440.35 -9.45"
+    }
+  }
+ ]

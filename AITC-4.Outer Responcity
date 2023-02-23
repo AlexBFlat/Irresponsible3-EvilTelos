@@ -1,0 +1,130 @@
+4.Outer Responcity
+	Aeris
+	Badgertown
+	Charlestown
+	Creeper Gulch
+	Columbuzz
+	Durango
+	Happyland
+	Vangaurd Shipyards
+	
+tellraw @p[distance=..10]
+ [
+  {
+   "text":"AITC-OR Version 0.04\n",
+   "color":"gray",
+   "bold":true,
+   "italic":false
+  },
+  {
+   "text":" \n"
+  },
+  {
+   "text":"Telos Cedra\n",
+   "color":"dark_blue",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] 0 0 0"
+    }
+  },
+  {
+   "text":" \n"
+  },
+  {
+   "text":"Outer Responcity\n",
+   "color":"dark_gray",
+   "bold":"true",
+   "italic":false
+  },
+  {
+   "text":"Aeris\n",
+   "color":"gray",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] 506 13 2862"
+    }
+  },
+  {
+   "text":"Badgertown\n",
+   "color":"blue",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] -202.22 72.00 -705.44"
+    }
+  },
+  {
+   "text":"Charlestown\n",
+   "color":"gold",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] 269.43 64.00 -17.82 178.65 5.40"
+    }
+  },
+  {
+   "text":"Columbuzz\n",
+   "color":"yellow",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] -484.68 70.00 707.69 354.00 2.40"
+    }
+  },
+  {
+   "text":"Creeper Gulch\n",
+   "color":"green",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] -202.93 74.00 376.36 -269.40 -1.95"
+    }
+  },
+  {
+   "text":"Durango\n",
+   "color":"purple",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] -618.33 70.00 373.51 268.65 1.80"
+    }
+  },
+  {
+   "text":"Happyland\n",
+   "color":"yellow",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] -159.37 63.00 -559.45 -219.30 -22.95"
+    }
+  },
+  {
+   "text":"Vangaurd Shipyards\n",
+   "color":"white",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] 3569 68 -275"
+    }
+  }
+ ]

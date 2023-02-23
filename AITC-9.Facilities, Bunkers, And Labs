@@ -1,0 +1,70 @@
+9.Facilities, Bunkers, And Labs
+    Crystal Depths  [light_blue]
+	The Dungeon     [dark_gray]
+	The Labracenter [white]
+
+tellraw @p[distance=..10]
+ [
+  {
+   "text":"AITC-FBAL Version 0.01\n",
+   "color":"gray",
+   "bold":true,
+   "italic":false
+  },
+  {
+   "text":" \n"
+  },
+  {
+   "text":"Telos Cedra\n",
+   "color":"dark_blue",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] 0 0 0"
+    }
+  },
+  {
+   "text":" \n"
+  },
+  {
+   "text":"Facilities, Bunkers, and Labs\n",
+   "color":"aqua",
+   "bold":"true",
+   "italic":false
+  },
+  {
+   "text":"Crystal Depths\n",
+   "color":"light_blue",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] -259 39 730"
+    }
+  },
+  {
+   "text":"The Dungeon\n",
+   "color":"dark_gray",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] -434 25 -325"
+    }
+  },
+  {
+   "text":"The Labracenter\n",
+   "color":"white",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] -41.34 64.00 536.50 -92.55 -19.20"
+    }
+  }  
+ ]

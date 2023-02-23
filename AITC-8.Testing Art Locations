@@ -1,0 +1,133 @@
+8.Testing/Art Locations
+	Desmond's Testing Area
+	The Edge
+	The Numbers Game Prison
+	The Statues Of Responsibility
+	Josh's space
+	Memory Lane
+	5-Year Tower
+	
+
+tellraw @p[distance=..10]
+ [
+  {
+   "text":"AITC-TAAL Version 0.06\n",
+   "color":"gray",
+   "bold":true,
+   "italic":false
+  },
+  {
+   "text":" \n"
+  },
+  {
+   "text":"Telos Cedra\n",
+   "color":"dark_blue",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] 0 0 0"
+    }
+  },
+  {
+   "text":" \n"
+  },
+  {
+   "text":"Testing Areas/ Art Locations\n",
+   "color":"aqua",
+   "bold":"true",
+   "italic":false
+  },
+  {
+   "text":"Desmond's Testing Area\n",
+   "color":"dark_purple",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] -29944.06 86.00 39905.18 -99.45 6.00"
+    }
+  },
+  {
+   "text":"Josh's Space\n",
+   "color":"gold",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] -825.73 96.00 3400.45 70.80 38.70"
+    }
+  },
+  {
+   "text":"Memory Lane\n",
+   "color":"gold",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] 10638 64 21237"
+    }
+  },  
+  {
+   "text":"The Edge\n",
+   "color":"blue",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] 51 112 4654"
+    }
+  },
+  {
+   "text":"The Numbers Game prison\n",
+   "color":"dark_gray",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] -1837.80 63.00 -11183.30 175.05 -4.05"
+    }
+  },
+  {
+   "text":"The Statues Of Responsibility\n",
+   "color":"green",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] 30000 64 40000"
+    }
+  },
+  {
+   "text":"5-Year Tower\n",
+   "color":"gold",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] -301.86 66.00 148.66 -629.70 -82.65"
+    }
+  }  
+ ]
+
+
+
+  {
+   "text":"LOCATION\n",
+   "color":"COLOR",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] X X X"
+    }
+  },

@@ -1,0 +1,177 @@
+7.Small Towns L-Z
+	Lancite
+	Little Current -1431 83 -825
+	Mushroom Island
+	Newfoundland
+	New Jackson/Lexington
+	New Leningrad
+	Petersburg
+	Puerto Rojo
+	Quartz Island
+	Witch Lake
+	Yiddia
+
+tellraw @p[distance=..10]
+ [
+  {
+   "text":"AITC-STLZ Version 0.04\n",
+   "color":"gray",
+   "bold":true,
+   "italic":false
+  },
+  {
+   "text":" \n"
+  },
+  {
+   "text":"Telos Cedra\n",
+   "color":"dark_blue",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] 0 0 0"
+    }
+  },
+  {
+   "text":" \n"
+  },
+  {
+   "text":"Small Towns L-Z\n",
+   "color":"dark_gray",
+   "bold":"true",
+   "italic":false
+  },
+  {
+   "text":"Lancite\n",
+   "color":"aqua",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] -1167.24 70.00 -1117.60 -1442.10 -11.85"
+    }
+  },
+ {
+   "text":"Little Current\n",
+   "color":"red",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] -1431 83 -825"
+    }
+  },
+  {
+   "text":"Mushroom Island\n",
+   "color":"COLOR",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] 993737 67 8277951"
+    }
+  },
+  {
+   "text":"Newfoundland\n",
+   "color":"yellow",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] 1727 63 -1461"
+    }
+  },
+  {
+   "text":"New Jackson/Lexington\n",
+   "color":"blue",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] -349.41 69.00 -246.72 899.70 -0.15"
+    }
+  },
+  {
+   "text":"New Leningrad\n",
+   "color":"dark_red",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] 1617 64 295"
+    }
+  },
+  {
+   "text":"Petersburg\n",
+   "color":"gray",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] -542 64 2"
+    }
+  },
+  {
+   "text":"Puerto Rojo\n",
+   "color":"red",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] 547.43 65 591.65 451.95 40.35"
+    }
+  },
+  {
+   "text":"Quartz Island\n",
+   "color":"white",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] -1923 66 -920"
+    }
+  },
+  {
+   "text":"Squarebanks\n",
+   "color":"gray",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] -1106.56 78.00 -158.98 454.95 -6.75"
+    }
+  },
+  {
+   "text":"Witch Lake\n",
+   "color":"green",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] 816.24 63.00 -59.35 88.65 -0.90"
+    }
+  },
+  {
+   "text":"Yiddia\n",
+   "color":"yellow",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] -1659 69 -11572"
+    }
+  }
+ ]

@@ -1,0 +1,166 @@
+  {
+   "text":"LOCATION NAME\n",
+   "color":"COLOR",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+   {
+   "action":"run_command",
+   "value":"/tp @p[distance=..10] X X X"
+   }
+  },
+
+2.Responcity
+	General Shroomington International Airport
+	Hightower District
+	Mission Responsible Federal Building
+	New Update's Eve Site
+	Northpointe
+	Northpointe Mall
+	Placeville
+	Point Zero
+	Responcity University
+	Spawn
+	
+/tellraw @p[distance=..10] 
+ [
+  {
+   "text":"AITC-R Version 0.09\n",
+   "color":"gray",
+   "bold":true,
+   "italic":false
+  },
+  {
+   "text":" \n"
+  },
+  {
+   "text":"Telos Cedra\n",
+   "color":"dark_blue",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] 0 0 0"
+    }
+  },
+  {
+   "text":" \n"
+  },
+  {
+   "text":"Responcity\n",
+   "color":"green",
+   "bold":"true",
+   "italic":false
+  },
+  {
+   "text":"General Shroomington International Airport\n",
+   "color":"gray",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+   {
+   "action":"run_command",
+   "value":"/tp @p[distance=..10] -153.43 83.00 254.41 490.95 -1.50"
+   }
+  },
+  {
+   "text":"Hightower District\n",
+   "color":"dark_blue",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+   {
+   "action":"run_command",
+   "value":"/tp @p[distance=..10] -212.70 74.00 244.45 -92.67 -3.71"
+   }
+  },
+  {
+   "text":"Mission Responsible Federal Building\n",
+   "color":"dark_green",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+   {
+   "action":"run_command",
+   "value":"/tp @p[distance=..10] -269.30 63.00 336.67 88.79 0.92"
+   }
+  },
+  {
+   "text":"New Update's Eve Site\n",
+   "color":"white",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+   {
+   "action":"run_command",
+   "value":"/tp @p[distance=..10] -1616 109 -12480"
+   }
+  },
+  {
+   "text":"Northpointe\n",
+   "color":"dark_gray",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] -308.65 68.00 36.30 1.87 -2.17"
+    }
+  },
+  {
+   "text":"Northpointe Mall\n",
+   "color":"white",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+   {
+   "action":"run_command",
+   "value":"/tp @p[distance=..10] -308.30 68.00 38.30 -.60 -10.50"
+   }
+  },
+  {
+   "text":"Placeville\n",
+   "color":"green",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+   {
+   "action":"run_command",
+   "value":"/tp @p[distance=..10] -216.70 65.00 42.30 -2.59 9.42"
+   }
+  },
+  {
+   "text":"Point Zero\n",
+   "color":"dark_aqua",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+   {
+   "action":"run_command",
+   "value":"/tp @p[distance=..10] 0 107 0"
+   }
+  },
+  {
+   "text":"Responcity University\n",
+   "color":"dark_aqua",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+   {
+   "action":"run_command",
+   "value":"/tp @p[distance=..10] -278.70 64.00 -90.66 273.14 1.69"
+   }
+  },
+  {
+   "text":"Spawn\n",
+   "color":"dark_gray",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+   {
+   "action":"run_command",
+   "value":"/tp @p[distance=..10] -230 69 181"
+   }
+  }
+ ]

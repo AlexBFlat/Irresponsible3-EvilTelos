@@ -1,0 +1,179 @@
+
+Happyland
+Placeville
+Tait's House
+Yiddia
+Minigames[in yiddia]
+
+tellraw @p[distance=..10]
+ [
+  {
+   "text":"AITC-Taitrahedron's Personal Locations Version 0.02\n",
+   "color":"green",
+   "bold":true,
+   "italic":false
+  },
+  {
+   "text":" \n"
+  },
+  {
+   "text":"Telos Cedra\n",
+   "color":"dark_blue",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] 0 0 0"
+    }
+  },
+  {
+   "text":" \n"
+  },
+  {
+   "text":"Assault Of The Ancients\n",
+   "color":"red",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] -1633 70 -11671"
+    }
+  },
+  {
+   "text":"Dr. Tait's Shooting Emporium\n",
+   "color":"yellow",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] -206.55 27.00 -556.49 -628.91 -4.65"
+    }
+  },
+{
+   "text":"Happyland\n",
+   "color":"yellow",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] -159.37 63.00 -559.45 -219.30 -22.95"
+    }
+  },
+  {
+   "text":"It's A Lot Like Server\n",
+   "color":"gray",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] -66.92 81.00 1.31 -223.35 -45.00"
+    }
+  },
+  {
+   "text":"Laser Tag\n",
+   "color":"blue",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] -1643.89 69.00 -11605.04 -90.45 -2.70"
+    }
+  },
+  {
+   "text":"Mr. Boom Boom's Explodey Haus\n",
+   "color":"green",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] -190.72 64.00 10.73 88.95 -4.20"
+    }
+  },
+  {
+   "text":"Oil Panic\n",
+   "color":"dark_gray",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] -1691.71 69.00 -12089.39 -178.65 -24.90"
+    }
+  },
+{
+   "text":"Placeville\n",
+   "color":"green",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+   {
+   "action":"run_command",
+   "value":"/tp @p[distance=..10] -224 65 41"
+   }
+  },
+  {
+   "text":"Pit Of 100 Zombies\n",
+   "color":"dark_green",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] -1655.88 69.00 -11612.73 -181.05 8.40"
+    }
+  },
+  {
+   "text":"Tait's House\n",
+   "color":"COLOR",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] -250.55 64.00 125.95 20.18 -55.05"
+    }
+  },
+  {
+   "text":"Yiddia\n",
+   "color":"yellow",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] -1659 69 -11572"
+    }
+  },  
+  {
+   "text":"Yiddian Hotel\n",
+   "color":"yellow",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] -1687.37 70.00 -11647.13 -271.35 -42.00"
+    }
+  }
+ ]
+
+
+
+  {
+   "text":"LOCATION\n",
+   "color":"COLOR",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] X X X"
+    }
+  },

@@ -1,0 +1,70 @@
+
+
+tellraw @p[distance=..10]
+ [
+  {
+   "text":"AITC-EL Version 0.02\n",
+   "color":"gray",
+   "bold":true,
+   "italic":false
+  },
+  {
+   "text":" \n"
+  },
+  {
+   "text":"Telos Cedra\n",
+   "color":"dark_blue",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/execute in minecraft:overworld run tp @s 0 0 0"
+    }
+  },
+  {
+   "text":" \n"
+  },
+  {
+   "text":"End Locations\n",
+   "color":"dark_purple",
+   "bold":"true",
+   "italic":false
+  },
+  {
+   "text":"Spawn\n",
+   "color":"light_purple",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/execute in minecraft:the_end run tp @s 100 49 0"
+    }
+  },
+  {
+   "text":"Sky Base\n",
+   "color":"white",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/execute in minecraft:the_end run tp @s 179 44 14"
+    }
+  }  
+ ]
+
+
+
+  {
+   "text":"LOCATION\n",
+   "color":"COLOR",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] X X X"
+    }
+  },

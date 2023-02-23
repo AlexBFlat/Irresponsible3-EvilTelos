@@ -1,0 +1,70 @@
+
+
+tellraw @p[distance=..10]
+ [
+  {
+   "text":"AITC-NL Version 0.04\n",
+   "color":"dark_red",
+   "bold":true,
+   "italic":false
+  },
+  {
+   "text":" \n"
+  },
+  {
+   "text":"Telos Cedra\n",
+   "color":"dark_blue",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/execute in minecraft:overworld run tp @s 0 0 0"
+    }
+  },
+  {
+   "text":" \n"
+  },
+  {
+   "text":"Nether Locations\n",
+   "color":"color",
+   "bold":"true",
+   "italic":false
+  },
+  {
+   "text":"Nether Spawn\n",
+   "color":"red",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/execute in minecraft:the_nether run tp @s -24 77 20"
+    }
+  },
+  {
+   "text":"Telos Cedra Nether Outpost 001M\n",
+   "color":"dark_blue",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/execute in minecraft:the_nether run tp @s -25 62 37"
+    }
+  }  
+ ]
+
+
+
+  {
+   "text":"LOCATION\n",
+   "color":"COLOR",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] X X X"
+    }
+  },

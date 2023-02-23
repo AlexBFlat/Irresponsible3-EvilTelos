@@ -1,0 +1,166 @@
+
+
+tellraw @p[distance=..10]
+ [
+  {
+   "text":"AITC-GBL Version 0.01\n",
+   "color":"gray",
+   "bold":true,
+   "italic":false
+  },
+  {
+   "text":" \n"
+  },
+  {
+   "text":"Telos Cedra\n",
+   "color":"dark_blue",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] 0 0 0"
+    }
+  },
+  {
+   "text":" \n"
+  },
+  {
+   "text":"Group Build Locations\n",
+   "color":"#ED980D",
+   "bold":"true",
+   "italic":false
+  },
+  {
+   "text":"S",
+   "color":"#62B00F",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] 1312 69 -5112"
+    }
+  },
+  {
+   "text":"e",
+   "color":"#85DA2A",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] 1312 69 -5112"
+    }
+  },
+    {
+   "text":"a",
+   "color":"#85DA2A",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] 1312 69 -5112"
+    }
+  },
+    {
+   "text":"s",
+   "color":"#D9B91A",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] 1312 69 -5112"
+    }
+  },
+    {
+   "text":"o",
+   "color":"#D9B91A",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] 1312 69 -5112"
+    }
+  },
+    {
+   "text":"n",
+   "color":"#E99118",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] 1312 69 -5112"
+    }
+  },
+  {
+   "text":" "
+  },
+    {
+   "text":"C",
+   "color":"#E99118",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] 1312 69 -5112"
+    }
+  },
+    {
+   "text":"i",
+   "color":"#DFBA73",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] 1312 69 -5112"
+    }
+  },
+    {
+   "text":"t",
+   "color":"#CAB38A",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] 1312 69 -5112"
+    }
+  },
+    {
+   "text":"y\n",
+   "color":"#F1EDE6",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] 1312 69 -5112"
+    }
+  }
+ ]
+
+tellraw @p[distance=..2]
+{
+ 
+}
+
+
+
+  {
+   "text":"LOCATION\n",
+   "color":"COLOR",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] X X X"
+    }
+  },

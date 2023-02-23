@@ -1,0 +1,84 @@
+1.Astrus-Ind. Locations
+	Alex Tower
+	Astra Delta
+	Telos-Cedra
+	Telos-I
+	Telehub
+
+tellraw @p[distance=..10] 
+
+[
+ {
+  "text":"AITC-AIL Version 0.03\n",
+  "color":"dark_blue",
+  "bold":true,
+  "italic":false
+ },
+ {
+  "text":" \n"
+ },
+  {
+   "text":"Telos Cedra\n",
+   "color":"dark_blue",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] 0 0 0"
+    }
+  },
+  {
+   "text":" \n"
+  },
+ {
+  "text":"Astrus Industries Locations\n",
+  "color":"white",
+  "bold":"true",
+  "italic":false
+ },
+  {
+   "text":"Alex Tower\n",
+   "color":"blue",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] -240 144 273"
+    }
+  },
+ {
+  "text":"Astra Delta\n",
+  "color":"dark_blue",
+  "italic":true,
+  "bold":false,
+  "clickEvent":
+   {
+   "action":"run_command",
+   "value":"/tp @p[distance=..10] 48 66 3059"
+   }
+ },
+ {
+  "text":"Telos-I\n",
+  "color":"blue",
+  "italic":true,
+  "bold":false,
+  "clickEvent":
+   {
+   "action":"run_command",
+   "value":"/tp @p[distance=..10] -150.53 201.00 257.45 -85.35 90.00"
+   }
+ },
+ {
+  "text":"Telehub\n",
+  "color":"dark_blue",
+  "italic":true,
+  "bold":false,
+  "clickEvent":
+   {
+   "action":"run_command",
+   "value":"/tp @p[distance=..10] -151 159 267"
+   }
+ }
+]

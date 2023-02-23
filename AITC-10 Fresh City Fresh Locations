@@ -1,0 +1,106 @@
+8.Fresh City/Fresh Locations [purple]
+    Fresh City Main [purple]
+	Desmond's Personas [D. red]
+	Era Of Terror Bosh Rush [yellow]
+	Mementos [red]
+	S.S. Fresh [purple]
+	The Gauntlets
+	
+tellraw @p[distance=..10]
+ [
+  {
+   "text":"AITC-FCFL Version 0.05\n",
+   "color":"gray",
+   "bold":true,
+   "italic":false
+  },
+  {
+   "text":" \n"
+  },
+  {
+   "text":"Telos Cedra\n",
+   "color":"dark_blue",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/execute in minecraft:overworld run tp @s 0 0 0"
+    }
+  },
+  {
+   "text":" \n"
+  },
+  {
+   "text":"Fresh City/Fresh Locations\n",
+   "color":"light_purple",
+   "bold":"true",
+   "italic":false
+  },
+{
+   "text":"Desmond's Personas\n",
+   "color":"dark_red",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] 10166 66 -9962"
+    }
+  },
+  {
+   "text":"Era Of Terror Boss Rush\n",
+   "color":"yellow",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] 7000 64 -7000"
+    }
+  },
+  {
+   "text":"Fresh City Main\n",
+   "color":"dark_purple",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] 295.67 74.00 2916.69 0.15 -45.15"
+    }
+  },
+  {
+   "text":"Mementos\n",
+   "color":"red",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tell @p[distance=..20] This location is not yet available."
+    }
+  },
+  {
+   "text":"S.S. Fresh\n",
+   "color":"dark_purple",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] -1743 69 -9896"
+    }
+  },
+  {
+   "text":"The Gauntlets\n",
+   "color":"dark_red",
+   "italic":true,
+   "bold":false,
+   "clickEvent":
+    {
+     "action":"run_command",
+     "value":"/tp @p[distance=..10] 83.82 76.00 174.48 89.55 -42.90"
+    }
+  }  
+ ]
